@@ -1,0 +1,11 @@
+create database todoList ;
+
+use todoList;
+
+create table program
+(
+task_id int,
+task_name varchar(255),
+description varchar(255),
+is_completed varchar(255)
+);
